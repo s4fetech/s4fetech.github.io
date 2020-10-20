@@ -9,6 +9,16 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180931235-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-180931235-1');
+    </script>
+
   </head>
   <body>
     <nav class="navbar navbar-expand-md sticky-top navbar-light">
@@ -67,13 +77,25 @@
                   <p>
                     <b>seguici ed iscriviti alla nostra newsletter!</b>
                   </p>
-                  <form class="form-inline float-right">
-                    <div class="form-group">
-                      <label for="inputEmail" class="sr-only">Email</label>
-                      <input type="text" class="form-control form-input" id="inputEmail" placeholder="Email">
-                    </div>
-                    <button type="submit" class="btn btn-up ml-2">signup</button>
-                  </form>
+                  <!-- Begin Mailchimp Signup Form -->
+                  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+                  <style type="text/css">
+                    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+                  </style>
+                    <form action="https://gmail.us2.list-manage.com/subscribe/post?u=dc1d69d04a676a2f5d91b0d4c&amp;id=85de73d363" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline float-right" target="_blank" novalidate>
+                      <div class="form-group">
+                        <label for="mce-EMAIL" class="sr-only">Email</label>
+                        <input type="email" name="EMAIL" class="form-control form-input required email" id="mce-EMAIL" placeholder="Email">
+                      </div>
+                      <input type="submit" value="signup" name="subscribe" id="mc-embedded-subscribe" class="btn btn-up ml-2">
+                      <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                      </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_dc1d69d04a676a2f5d91b0d4c_85de73d363" tabindex="-1" value=""></div>
+                  </div>
+                  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                  <!--End mc_embed_signup-->
                 </div>
               </div>
             </div>
